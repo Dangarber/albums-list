@@ -1,12 +1,12 @@
 # Album List
 
 ## Installation
-
+I am using Python verison 3.10.7, you will need to have this verison installed as well. 
+To use requirements txt use command  pip install -requirements.txt
 ### Description of packages installation here ###
 ```
+Python verison 3.10.7
 
-pip install -requirements.
-txt
 ```
 ## Read Data in
 *Read in data from rollingstones top albums of all time list. Shown here as "albumlist.csv
