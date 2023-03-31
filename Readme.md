@@ -1,22 +1,22 @@
 # Album List
 
 ## Installation
-I am using Python verison 3.10.7, you will need to have this verison installed as well. 
-To use requirements txt use command  pip install -requirements.txt
-### Description of packages installation here ###
-```
-Python verison 3.10.7
+I am using Python verison 3.10.7,
+i also used pandas and matplotlib
 
+To you can install those individually, or copy my whole environment with the command  
+```
+pip install -r requirements.txt
 ```
 ## Read Data in
-*Read in data from rollingstones top albums of all time list. Shown here as "albumlist.csv
 
+*Read in data from rollingstones top albums of all time list. Shown here as "albumlist.csv
+Used function full_file = pd.read_csv("albumlist.csv", encoding='latin-1',)
 ## Manipulate and Clean Your Data
-*I Impliemented a function that removes unesscary data in this case the categories "subgenre"
-*
+I used drop(columns=["Subgenre"]) to clear up a column I didn't need. I also removed the extra genre's listed after the first comma in the column "genre".
 ## Analyze
-"will use at least five functions. I know I will use Len() to summarize the amout of decades on my list or similar data. This description will become more detailed as I play aroud with different functions to see what works and what I like.
+I used these functions to break down my data into useful information. Each reason why is listed in the Markdown's in my AlbumList.ipynb file. These functions are, len, .groupby, .count, .nlargest, .nsmallest, 
 ## Visualize Your Data
-Will make bar graph to show what years had the most albums. Also line graph to show the rise of genre's over each year.
+I made two graphs bar and pie. What insight they give is listed in the markdown above each one.
 ## Interpret Your Data
-Will add quotes explanning what I did to achieve each result. Will explain what results and new revelations I made with the data. Hard to explain now without seeing it myself but I have a feeling I can draw a lot from what Rolling Stones saw was the best amongst decades and even genres. 
+The indepth interpretation of the my project in on the very last markdown. 
